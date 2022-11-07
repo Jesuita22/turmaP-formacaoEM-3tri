@@ -5,6 +5,11 @@ header{
     background-color: beige;
     border: 5px solid lightcoral;
     padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
 }
 h1{
     font-size: 40px;
@@ -59,4 +64,19 @@ img{
 }
 nav ul{
     display: inline;
+}
+
+.testeposition1{
+    position: absolute;
+    top: 500px;
+    bottom: 20%vw ;
+    left: 200px ;
+    right: ;
+
+    border: 5px solid rebeccapurple;
+    width: 41,1%;
+    height: 316px;
+}
+.testeposition2{
+    border: 3px dotted red
 }
