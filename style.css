@@ -80,3 +80,8 @@ nav ul{
 .testeposition2{
     border: 3px dotted red
 }
+.jesuita {
+    display: inline-block;
+    border: 5px dotted blueviolet;
+    border-radius: 15px;
+}
