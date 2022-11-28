@@ -34,6 +34,21 @@ nav li {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+nav a{
+    text-decoration: none;
+    text-transform: inherit;
+    color:blueviolet;
+    font-weight: bold;
+    border: 2px solid brown;
+    border-radius: 3px;
+    background-color: ;
+    padding: 2px;
+}
+
+nav a:hover{
+
+}
 h2{
     font-family: : Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -67,15 +82,10 @@ nav ul{
 }
 
 .testeposition1{
-    position: absolute;
-    top: 500px;
-    bottom: 20%vw ;
-    left: 200px ;
-    right: ;
-
-    border: 5px solid rebeccapurple;
-    width: 41,1%;
+    position: static;
+    width: 40%;
     height: 316px;
+
 }
 .testeposition2{
     border: 3px dotted red
@@ -84,4 +94,15 @@ nav ul{
     display: inline-block;
     border: 5px dotted blueviolet;
     border-radius: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 8px;
+    font-weight: bold;
+    border: 2px dashed darkmagenta;
+    height: 30px;
+    background-image: url(caneta2.JFIF)
+
+
 }
